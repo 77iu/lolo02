@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    background-color: transparent;
+    margin: auto;
+}
+div{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: red;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+span{
+    width: 90%;
+    height: 90%;
+background-color: cadetblue;
+display: grid;
+place-items: center;
+border-radius: 50%;
+
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 45%;
+    animation: hh 0.2s linear alternate infinite;
+}
+@keyframes hh{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
